@@ -2,7 +2,7 @@
 #include "fun.h"
 
 int main() {
-    int a = 3;
+    int a = 5;
     int b = 7;
     int rez = power(a, b);
     return rez;
