@@ -2,5 +2,10 @@
 #include "fun.h"
 
 int64_t power(int64_t x, uint16_t n) {
-    return 0;
+    int rez = 1;
+    while (n > 0) {
+        rez = rez * x;
+        n--;
+        }
+    return rez;
 }
